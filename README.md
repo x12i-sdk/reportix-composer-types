@@ -19,8 +19,8 @@ npm start
 
 ## When to use the package
 
-- A consumer needs the following capability: Shared Zod schemas and TypeScript types for Reportix Composer.
-- A producer and consumer of reportix-composer data need to share the published type or validation contract before exchanging payloads.
+- Validate a report request before sending it to the rendering API.
+- Share template and export contracts across a client and server.
 
 ## Links
 
